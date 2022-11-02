@@ -1,0 +1,15 @@
+{
+  "extends": "@rocketseat/eslint-config/react",
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfline": "auto"
+      }
+    ],
+    "no-unused-vars": "off"
+  }
+}
+// comentários / comments
+// npm i eslint -D ~ npm i @rocketseat/eslint-config -D
+// npm eslint --init: comando para criar a sua configuração do zero.
