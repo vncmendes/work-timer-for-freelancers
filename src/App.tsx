@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom"; // para usar o react-router-do
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./styles/global";
 import { defaultTheme } from "./styles/themes/default";
-import { Router } from "./components/Router";
+import { Router } from "./Router";
 
 export function App() {
   return (

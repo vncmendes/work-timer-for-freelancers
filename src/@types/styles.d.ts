@@ -4,7 +4,7 @@ import { defaultTheme } from "../styles/themes/default";
 type ThemeType = typeof defaultTheme;
 
 declare module "styled-components" {
-    export interface DefaultTheme extends ThemeType { } // essa DefaultTheme vem da documentação do styled-comp. é o objeto que ele usa pra instanciar os themas.
+  export interface DefaultTheme extends ThemeType { } // essa DefaultTheme vem da documentação do styled-comp. é o objeto que ele usa pra instanciar os themas.
 }
 
 // comentários / comments:
